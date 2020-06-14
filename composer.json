@@ -1,0 +1,29 @@
+{
+    "name": "greenweb/p.sheybani",
+    "description": "this is addon module",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "peyman sheybani",
+            "email": "peyman.sheybanii@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "greenweb/addon" : "dev-master",
+        "illuminate/http": "^7.15"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/peymansheybani/addon-module.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "is\\pami\\": "" }
+    },
+    "scripts": {
+        "adabi" : "@php script.php"
+    }
+}
